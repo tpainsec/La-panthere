@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -360,6 +360,15 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.citation {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.auteur {
+    font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -681,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -780,7 +789,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976C!important;
 }
 
 .btn-atomic-tangerine {
